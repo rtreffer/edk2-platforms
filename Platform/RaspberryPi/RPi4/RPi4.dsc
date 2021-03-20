@@ -24,6 +24,7 @@
   BUILD_TARGETS                  = DEBUG|RELEASE|NOOPT
   SKUID_IDENTIFIER               = DEFAULT
   FLASH_DEFINITION               = Platform/RaspberryPi/$(PLATFORM_NAME)/$(PLATFORM_NAME).fdf
+  DEFINE X64EMU_ENABLE           = TRUE
 
   #
   # Defines for default states.  These can be changed on the command line.
