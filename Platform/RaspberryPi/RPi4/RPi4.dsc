@@ -417,9 +417,12 @@
 
   # PCIe specific addresses
   gBcm27xxTokenSpaceGuid.PcdBcm27xxPciRegBase|0xfd500000
-  gBcm27xxTokenSpaceGuid.PcdBcm27xxPciBusMmioAdr|0xf8000000
-  gBcm27xxTokenSpaceGuid.PcdBcm27xxPciBusMmioLen|0x3ffffff
+  gBcm27xxTokenSpaceGuid.PcdBcm27xxPciBusMmioAdr|0xc0000000
+  gBcm27xxTokenSpaceGuid.PcdBcm27xxPciBusMmioLen|0x3fffffff
   gBcm27xxTokenSpaceGuid.PcdBcm27xxPciCpuMmioAdr|0x600000000
+  # gBcm27xxTokenSpaceGuid.PcdBcm27xxPciBusMmioLen|0x3ffffff
+  # gBcm27xxTokenSpaceGuid.PcdBcm27xxPciBusMmioAdr|0xf8000000
+
 
   # UARTs
   gArmPlatformTokenSpaceGuid.PL011UartInteger|0
